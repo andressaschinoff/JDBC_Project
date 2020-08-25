@@ -63,6 +63,8 @@ public class Program {
 		
 		sellerDao.deleteById(id);
 		System.out.println("Deleted!");
+		
+		sc.close();
 	}
 
 }
