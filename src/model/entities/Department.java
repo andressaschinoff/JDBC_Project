@@ -40,12 +40,12 @@ public class Department implements Serializable {
 		
 		Department castOther = (Department) other;
 		
-		return Objects.equals(id, castOther.id) && Objects.equals(name, castOther.name);
+		return Objects.equals(id, castOther.id);
 	}
 	
 	@Override
 	public int hashCode() {
-		return Objects.hash(id, name);
+		return Objects.hash(id);
 	}
 
 	@Override
